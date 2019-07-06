@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float Celsius,Fahrenheit;
+	cout << "Enter Celsius Temperature : ";
+	cin >> Celsius;
+	Fahrenheit = (Celsius*1.8)+32;
+	cout << "Fahrenheit = "<< Fahrenheit << endl;
+
+	cout << "Now weather in Thailand is "<< ((Fahrenheit>70) == 1 ? "HOT" : "COOL") << endl;
+	return (0);
+}
+ 
